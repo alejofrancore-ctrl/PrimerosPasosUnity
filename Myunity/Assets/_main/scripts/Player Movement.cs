@@ -5,8 +5,8 @@ public class PlayerMovement : MonoBehaviour
 {
     //variables
     
-    [SerializeField] private float _force= 5f;
-    [SerializeField] private float _speed= 5f;
+    [SerializeField] private float _jumpforce= 5f;
+    [SerializeField] private float _movementspeed= 5f;
     [SerializeField] private Rigidbody2D _rigidbody2D;
     [SerializeField] private groundcheck _groundcheck;
     
@@ -23,10 +23,10 @@ public class PlayerMovement : MonoBehaviour
         
          if (Input.GetKey(KeyCode.Space))
         {
-            _rigidbody2D.AddForce(Vector2.up * _force);
+            _rigidbody2D.AddForce(Vector2.up * _jumpforce,ForceMode2D.Force) ;
             
         }
-        _rigidbody2D.velocity=Vector2.right * _speed;
+        _rigidbody2D.velocity=Vector2.right * _movementspeed;
     }
     }
 
