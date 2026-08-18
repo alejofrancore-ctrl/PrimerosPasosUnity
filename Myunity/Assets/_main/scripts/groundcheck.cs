@@ -4,7 +4,7 @@ using UnityEngine;
 public class groundcheck : MonoBehaviour
 {
     public bool isground;
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
         isground = true;
         Debug.Log("me Tocaron!! ");

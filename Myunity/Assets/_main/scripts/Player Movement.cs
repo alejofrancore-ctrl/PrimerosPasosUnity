@@ -23,10 +23,11 @@ public class PlayerMovement : MonoBehaviour
         
          if (Input.GetKey(KeyCode.Space))
         {
-            _rigidbody2D.AddForce(Vector2.up * _jumpforce,ForceMode2D.Force) ;
+            _rigidbody2D.AddForce(Vector2.up * _jumpforce,ForceMode2D.Impulse) ;
             
         }
-        _rigidbody2D.velocity=Vector2.right * _movementspeed;
+        _rigidbody2D.velocity= new Vector2(1* _movementspeed, _rigidbody2D.velocity.y);
+        
     }
     }
 
