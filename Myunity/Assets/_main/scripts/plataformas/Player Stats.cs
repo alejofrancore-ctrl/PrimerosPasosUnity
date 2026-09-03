@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
@@ -12,5 +11,9 @@ public class PlayerStats : MonoBehaviour
         // + - / *
         // = == ! && ||
         //!= += -= ++ --
+    }
+    public void SumarVida(int salud)
+    {
+        _puntosVida= _puntosVida+salud;
     }
 }
