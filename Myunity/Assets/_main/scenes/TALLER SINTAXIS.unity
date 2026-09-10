@@ -771,6 +771,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!1 &177221038
 GameObject:
   m_ObjectHideFlags: 0
@@ -1000,6 +1001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!1 &204785890
 GameObject:
   m_ObjectHideFlags: 0
@@ -1117,6 +1119,8 @@ Transform:
   - {fileID: 345238292}
   - {fileID: 497083497}
   - {fileID: 1861584900}
+  - {fileID: 1752540220}
+  - {fileID: 1134107105}
   - {fileID: 353174048}
   - {fileID: 252433774}
   - {fileID: 1299554798}
@@ -1285,6 +1289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!1 &252433773
 GameObject:
   m_ObjectHideFlags: 0
@@ -1430,6 +1435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!1 &254460921
 GameObject:
   m_ObjectHideFlags: 0
@@ -1744,6 +1750,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!61 &321380757
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1935,6 +1942,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!1 &353174044
 GameObject:
   m_ObjectHideFlags: 0
@@ -2080,6 +2088,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!1 &353986106
 GameObject:
   m_ObjectHideFlags: 0
@@ -2682,6 +2691,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!1 &519761295
 GameObject:
   m_ObjectHideFlags: 0
@@ -2827,6 +2837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!1 &524113705
 GameObject:
   m_ObjectHideFlags: 0
@@ -2859,8 +2870,6 @@ Transform:
   - {fileID: 939604433}
   - {fileID: 700147204}
   - {fileID: 1423821206}
-  - {fileID: 1752540220}
-  - {fileID: 1134107105}
   - {fileID: 1540623743}
   - {fileID: 1797985415}
   - {fileID: 1926827663}
@@ -3105,6 +3114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!1 &624147698
 GameObject:
   m_ObjectHideFlags: 0
@@ -4010,6 +4020,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!1 &908990298
 GameObject:
   m_ObjectHideFlags: 0
@@ -4155,6 +4166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!1 &939604430
 GameObject:
   m_ObjectHideFlags: 0
@@ -4642,6 +4654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!1 &995062532
 GameObject:
   m_ObjectHideFlags: 0
@@ -4888,7 +4901,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1002163161}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 28.4386, y: 1.92, z: 0}
+  m_LocalPosition: {x: 28.3, y: 1.56, z: 0}
   m_LocalScale: {x: 2.2767787, y: 2.8559432, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5151,11 +5164,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1134107103}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 35.93, y: 0.98, z: 0}
+  m_LocalPosition: {x: 35.93, y: 0.98, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 524113706}
+  m_Father: {fileID: 214732596}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1134107106
@@ -5217,6 +5230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!1 &1138400764
 GameObject:
   m_ObjectHideFlags: 0
@@ -5493,6 +5507,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!1 &1152664191
 GameObject:
   m_ObjectHideFlags: 0
@@ -5525,6 +5540,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!61 &1152664193
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5783,6 +5799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!1 &1207818545
 GameObject:
   m_ObjectHideFlags: 0
@@ -5997,6 +6014,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _puntosVida: 100
+  _uimanager: {fileID: 1385507761}
 --- !u!1 &1245486947
 GameObject:
   m_ObjectHideFlags: 0
@@ -6273,6 +6291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!1 &1299554797
 GameObject:
   m_ObjectHideFlags: 0
@@ -6418,6 +6437,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!1 &1326323241
 GameObject:
   m_ObjectHideFlags: 0
@@ -6563,6 +6583,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!1 &1353754816
 GameObject:
   m_ObjectHideFlags: 0
@@ -6746,6 +6767,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!61 &1361849316
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6972,7 +6994,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6eed9d83c830b6c40940c6d708aceae7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  barra: {fileID: 986842143}
+  _barra: {fileID: 986842143}
+  _playerstats: {fileID: 1207818552}
 --- !u!4 &1385507762
 Transform:
   m_ObjectHideFlags: 0
@@ -7020,6 +7043,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!61 &1416574529
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7409,6 +7433,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!1 &1428375317
 GameObject:
   m_ObjectHideFlags: 0
@@ -7658,6 +7683,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!1 &1470607995
 GameObject:
   m_ObjectHideFlags: 0
@@ -7803,6 +7829,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!1 &1483990116
 GameObject:
   m_ObjectHideFlags: 0
@@ -7948,6 +7975,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!1 &1539016600
 GameObject:
   m_ObjectHideFlags: 0
@@ -8093,6 +8121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!1 &1540623742
 GameObject:
   m_ObjectHideFlags: 0
@@ -8584,6 +8613,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!1 &1629575785
 GameObject:
   m_ObjectHideFlags: 0
@@ -8616,6 +8646,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!61 &1629575787
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8922,6 +8953,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1752540220}
   - component: {fileID: 1752540219}
+  - component: {fileID: 1752540222}
+  - component: {fileID: 1752540221}
   m_Layer: 0
   m_Name: Cactus A (5)
   m_TagString: Untagged
@@ -8989,13 +9022,73 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1752540218}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 26.41, y: 1.02, z: 0}
+  m_LocalPosition: {x: 26.41, y: 1.02, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 524113706}
+  m_Father: {fileID: 214732596}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1752540221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752540218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 392d8a6b54a688d42b3c495eef9b073f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
+--- !u!61 &1752540222
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752540218}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.625}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.75, y: 1.25}
+    newSize: {x: 0.75, y: 1.25}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.75, y: 1.25}
+  m_EdgeRadius: 0
 --- !u!1 &1774669750
 GameObject:
   m_ObjectHideFlags: 0
@@ -9028,6 +9121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!61 &1774669752
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9417,6 +9511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!1 &1861584898
 GameObject:
   m_ObjectHideFlags: 0
@@ -9516,6 +9611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerstats: {fileID: 1207818552}
+  _uimanager: {fileID: 1385507761}
 --- !u!61 &1861584902
 BoxCollider2D:
   m_ObjectHideFlags: 0
