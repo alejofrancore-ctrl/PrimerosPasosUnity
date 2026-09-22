@@ -6,6 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/_main/scenes/Main Menu.unity
+    guid: a901e2f55f0ec5b4bad3d0a9720246a5
+  - enabled: 1
+    path: Assets/_main/scenes/TALLER SINTAXIS.unity
+    guid: 442468920aa148241a45271912d0b507
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
