@@ -20,4 +20,18 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(scene);
     } 
+    public void Salirdeljuego()
+    {
+        Application.Quit();
+    }
+
+    public void pausarjuego()
+    {
+        Time.timeScale= 0;
+
+    }
+    public void reanudarjuego()
+    {
+       Time.timeScale= 1;
+    }
 }
