@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     //reiniciar pausar o salir del juego
     private void Start()
     {
-        
+        Time.timeScale= 1;
     }
 
     // Update is called once per frame
@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
      public void cargarEscena(int scene)
     {
         SceneManager.LoadScene(scene);
+        Time.timeScale= 1;
     } 
     public void Salirdeljuego()
     {

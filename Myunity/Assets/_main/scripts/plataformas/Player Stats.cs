@@ -1,10 +1,16 @@
 
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
     [SerializeField] private float _puntosVidaactuales = 100.0f;
     [SerializeField] private UImanager _uimanager;
+    
+    [SerializeField] private SpriteRenderer _spriterenderer;
+
+  
+   
     public void RestarVida(int daño)
     {
         _puntosVidaactuales= _puntosVidaactuales-daño;
@@ -39,7 +45,14 @@ public class PlayerStats : MonoBehaviour
         //vida 0 = muerte
        if (_puntosVidaactuales <= 0)
         {
-            Destroy(this.gameObject);
+            
+            _spriterenderer.enabled=false;
+            _uimanager.gameover();
+            Time.timeScale= 0;
+            
+            
+            
+
         }
         }
     }
