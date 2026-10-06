@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,6 +7,7 @@ public class UImanager : MonoBehaviour
     [SerializeField] private Image _barra;
     [SerializeField] private PlayerStats _playerstats;
     [SerializeField] private GameObject _gameover;
+    [SerializeField] private GameObject _pantallavictoria;
     
    
     // Start is called before the first frame update
@@ -14,6 +16,7 @@ public class UImanager : MonoBehaviour
         _barra.color = Color.cyan;
         _barra.fillAmount=1f;
         _gameover.SetActive(false);
+        _pantallavictoria.SetActive(false);
     }
 
     // Update is called once per frame
@@ -42,4 +45,10 @@ public class UImanager : MonoBehaviour
     {
         _gameover.SetActive(true);
     }
-}
+
+    public void Wincondition()
+    {
+        _pantallavictoria.SetActive(true);
+         Time.timeScale= 0;
+    }
+    }
